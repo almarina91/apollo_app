@@ -1,0 +1,137 @@
+*:focus {
+    outline: 0 !important;
+}
+.item {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height: 5em;
+    color: white;
+    margin-bottom: 1px;
+}
+.intervals {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    min-height: 5em;
+    margin-bottom: 1px;
+}
+.interval {
+    display: inline-block;
+}
+
+.subitem:hover{
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.item-0to2K {
+    background-image: url(../app/1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+.item-0to5K {
+    background-image: url(../app/2.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+.item-5Kto10K {
+    background-image: url(../app/3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.item-WeightLossLevel1 {
+    background-image: url(../app/4.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.item-WeightLossLevel2 {
+    background-image: url(../app/5.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.item-WeightLossLevel3 {
+    background-image: url(../app/6.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+}
+
+.buttons-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: black;
+    color: lightsalmon;
+    border: none;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.button:hover {
+    color: #f1581c;
+    cursor: pointer;
+}
+
+.disabled-button {
+    background-color: black;
+    color: lightgray;
+    border: none;
+    font-size: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 60px auto 50px;
+}
+
+.backButton {
+    color: white;
+    grid-column: 1/2;
+    alignment: left;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+.backButton:hover {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.main-title {
+    grid-column: 2/3;
+    color: white;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.time {
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+}
+
+.title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2em;
+    font-weight: lighter;
+    color: lightsalmon;
+}
+
+
